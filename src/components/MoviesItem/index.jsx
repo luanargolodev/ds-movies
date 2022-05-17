@@ -16,10 +16,10 @@ const MoviesItem = (data) => {
   return (
     <div className={styles.card}>
       <div className={styles.cardImg}>
-        <img src={img} alt={data.movie.original_title} />
+        <img src={img} alt={data.movie.title} />
       </div>
       <div className={styles.cardContent}>
-        <h1 className={styles.title}>{data.movie.original_title}</h1>
+        <h1 className={styles.title}>{data.movie.title}</h1>
         <p className={styles.points}>{data.movie.vote_average}</p>
         <span className={styles.assessments}>
           {data.movie.vote_count} avaliações
