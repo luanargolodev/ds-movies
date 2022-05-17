@@ -1,0 +1,32 @@
+header {
+  background: blueviolet;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
