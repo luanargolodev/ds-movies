@@ -6,10 +6,10 @@ import Movies from './components/Movies';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <Movies />
-    </div>
+    </>
   );
 };
 
