@@ -1,0 +1,44 @@
+.card {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.cardImg img {
+  border-radius: 5px 5px 0 0;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.title {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.points {
+  font-size: 0.9rem;
+  color: gold;
+  font-weight: bold;
+}
+
+.assessments {
+  font-size: 0.8rem;
+  color: #cecece;
+}
+
+.button {
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: none;
+  background: #ffc107;
+  font-weight: bold;
+  cursor: pointer;
+}
